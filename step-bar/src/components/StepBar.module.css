@@ -1,0 +1,63 @@
+/* .container {} */
+
+.formsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stepBar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stepNumber {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    z-index: 2;
+}
+
+.stepName {
+    font-size: 1rem;
+}
+
+.active .stepNumber {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.complete .stepNumber {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.progressBar {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height: 5px;
+    background-color: #3e3e3e;
+    z-index: -1;
+}
+
+.progress {
+    height: 100%;
+    background-color: #28a745;
+    transition: 0.3s ease;
+}
