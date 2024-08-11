@@ -1,0 +1,3 @@
+[submodule "star-trail-cursor"]
+	path = star-trail-cursor
+	url = https://github.com/malewicz1337/glow-cursor
