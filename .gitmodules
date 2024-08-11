@@ -1,3 +1,6 @@
 [submodule "star-trail-cursor"]
 	path = star-trail-cursor
 	url = https://github.com/malewicz1337/glow-cursor
+[submodule "image-slider-animation"]
+	path = image-slider-animation
+	url = https://github.com/malewicz1337/image-slider-animation-vanilla
